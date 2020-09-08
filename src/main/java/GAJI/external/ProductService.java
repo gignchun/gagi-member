@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Date;
 
+//test
 @FeignClient(name="Product", url="http://Product:8080")
 public interface ProductService {
 
